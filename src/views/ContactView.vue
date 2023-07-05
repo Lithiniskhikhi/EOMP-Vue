@@ -1,4 +1,5 @@
 <template>
+    
 <!--Section: Contact v.2-->
 <section class="mb-4" style="margin-inline: 2rem;">
 
@@ -71,7 +72,7 @@
           </form>
 
           <div class="text-center text-md-left">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();" id="send">Send</a>
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();" id="send"><ion-icon name="mail-open-outline" ></ion-icon ></a>
           </div>
           <div class="status"></div>
       </div>
@@ -106,6 +107,16 @@
     export default {
         
     }
+    window.addEventListener("scroll", function() {
+   //Select your navigation bar
+   var nav = document.getElementsByTagName("nav")[0];
+   //Change 20 to anything you want like nav.offsetHeight
+   if(window.scrollY > 20) {
+       nav.style.borderBottom = "5px solid Red";
+    } else {
+      nav.style.border = "0";
+   }
+});
 </script>
 
 <style src="../assets/css/styles.css">

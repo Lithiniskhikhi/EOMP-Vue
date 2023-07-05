@@ -90,3 +90,14 @@ export default createStore({
   modules: {
   }
 })
+
+window.addEventListener("scroll", function() {
+  //Select your navigation bar
+  var nav = document.getElementsByTagName("nav")[0];
+  //Change 20 to anything you want like nav.offsetHeight
+  if(window.scrollY > 20) {
+      nav.style.borderBottom = "5px solid dodgerblue";
+   } else {
+     nav.style.border = "0";
+  }
+});
