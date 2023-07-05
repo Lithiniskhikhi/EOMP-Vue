@@ -1,17 +1,16 @@
 <template>
   <Navbar/>
   <div class="main">
-    <img src="https://i.pinimg.com/564x/1a/4d/2d/1a4d2d4ba5ce714e800b23ba51fca297.jpg" id="homePIC">
-    <h1>I'm Lithini Skhikhi <div class="roller">
+    <h1>I'm Lithini Skhikhi <div class="roller" style="margin-right: 30rem;">
       <span id="text">An<br/>
       Aspiring<br>
       Web Developer<br/></span>
       <br>
-      <!-- <span id="spare-time">too much spare time?</span><br/> -->
       </div>
       </h1>
-      <img src="https://i.pinimg.com/564x/f1/67/ad/f167add8e3fbef2fc46fb4b3d292376a.jpg" id="homePIC">
+       <!-- <img src="https://i.pinimg.com/564x/f1/67/ad/f167add8e3fbef2fc46fb4b3d292376a.jpg" id="homePIC"> --> -->
     </div>
+   
     
 </template>
 
@@ -25,6 +24,16 @@ export default {
     HelloWorld
   }
 }
+window.addEventListener("scroll", function() {
+   //Select your navigation bar
+   var nav = document.getElementsByTagName("nav")[0];
+   //Change 20 to anything you want like nav.offsetHeight
+   if(window.scrollY > 20) {
+       nav.style.borderBottom = "5px solid Red";
+    } else {
+      nav.style.border = "0";
+   }
+});
 </script>
 <style src="../assets/css/styles.css">
 body{

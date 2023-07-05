@@ -137,8 +137,57 @@
 
  #homePIC{
 height: 50rem;
-
+width: 50rem;
  }
  router-link{
-  color: #050505;
+  color: #eadfdf;
  }
+ img{
+  height: 100%;
+  width: 100%;
+  }
+  
+  .parentContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+  
+  .bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  }
+  
+  .top-left {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  }
+  
+  .top-right {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  }
+  
+  .bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  }
+  
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  }
+
+#Lee{
+  width: 7rem;
+}
+
+
+footer{
+  color: white;
+}
