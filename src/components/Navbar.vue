@@ -18,7 +18,7 @@
                     <router-link class="nav-link" to="/testimonials" style="color:white">Testimonials</router-link>
                   </li>
                   <li class="nav-item">
-                    <router-link class="nav-link" to="/Education" style="color:white">Education</router-link>
+                    <router-link class="nav-link" to="/Education" style="color:white">Resume</router-link>
                   </li>
                   <li class="nav-item">
                     <router-link class="nav-link" to="/Projects" style="color:white">Projects</router-link>

@@ -1,7 +1,7 @@
 <template>
    <div class="mt-5 container gap-2" >
     <div class="row">
-        <h1 style="padding-top:3rem;">MY SKILLS</h1>
+        <h1 style="padding-top:3rem;"> -SKILLS-</h1>
         <div class="col-12 col-md-6" v-for="data in Skills" :key="data.id">
             <img :src="data.image" alt="" style="width:10rem;height:10rem;">
             <p>{{data.title}}</p>
@@ -36,5 +36,8 @@
 </script>
 
 <style scoped>
-
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
 </style>
