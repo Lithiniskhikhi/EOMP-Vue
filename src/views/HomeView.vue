@@ -8,7 +8,7 @@
       <br>
       </div>
       </h1>
-       <!-- <img src="https://i.pinimg.com/564x/f1/67/ad/f167add8e3fbef2fc46fb4b3d292376a.jpg" id="homePIC"> --> -->
+       <img src="https://i.pinimg.com/564x/1a/34/ca/1a34ca71da5eddc78464810763d8a367.jpg" id="homePIC"> 
     </div>
    
     
