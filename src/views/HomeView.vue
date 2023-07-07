@@ -1,13 +1,14 @@
 <template>
   <Navbar/>
+  
   <div class="main">
-    <h1 class="overlay-text" >I'm Lithini Skhikhi <div class="roller" style="margin-right: 30rem;">
+    <h2 class="overlay-text display-6" >I'm Lithini Skhikhi <div class="roller" style="margin-right: 30rem;">
       <span id="text">An<br/>
       Aspiring<br>
       Web Developer<br/></span>
       <br>
       </div>
-      </h1>
+      </h2>
        <img src="https://i.pinimg.com/564x/1a/34/ca/1a34ca71da5eddc78464810763d8a367.jpg" id="homePIC" > 
     </div>
    
