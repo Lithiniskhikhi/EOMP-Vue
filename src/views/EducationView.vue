@@ -12,11 +12,25 @@
                     <p style="color:black">{{ data.Description }}</p>
           </div>
         </div>
-        
-      
-<h2>Download my cv</h2>
-<br>
-<button style="border-radius: 30%;width:5rem"><ion-icon name="arrow-down-circle-outline" style="height:3rem"></ion-icon></button>
+
+        <br>
+        <br>
+
+        <div class="card text-center" style="background-color: black;">
+          <div class="card-header" style="color:white">
+            MY CV
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:white">Download my cv</h5>
+            <p class="card-text"></p>
+
+            <a href="https://drive.google.com/uc?export=download&id=1ReUg5Fd7RYZmtZLE7QDpoWVUwmzKzt75" class="btn btn-primary"  download style="text-decoration: none;"><ion-icon name="arrow-down-circle-outline" ></ion-icon></a>
+          </div>
+          <div class="card-footer text-muted">
+           Hit me up !
+          </div>
+        </div>   
+
 </template>
 
 <script>
@@ -71,9 +85,7 @@ function setEqualHeights(el) {
     font-family: Helvetica, sans-serif;
   }
   
-  /* The actual timeline (the vertical ruler) */
- 
-  /* The actual timeline (the vertical ruler) */
+  
   .timeline::after {
     content: '';
     position: absolute;
@@ -85,7 +97,7 @@ function setEqualHeights(el) {
     margin-left: -3px;
   }
   
-  /* Container around content */
+  
   .container {
     padding: 10px 40px;
     position: relative;
@@ -93,7 +105,7 @@ function setEqualHeights(el) {
     width: 50%;
   }
   
-  /* The circles on the timeline */
+  
   .container::after {
     content: '';
     position: absolute;
@@ -107,17 +119,14 @@ function setEqualHeights(el) {
     z-index: 1;
   }
   
-  /* Place the container to the left */
   .left {
     left: 0;
   }
   
-  /* Place the container to the right */
   .right {
     left: 50%;
   }
   
-  /* Add arrows to the left container (pointing right) */
   .left::before {
     content: " ";
     height: 0;
@@ -131,7 +140,6 @@ function setEqualHeights(el) {
     border-color: transparent transparent transparent white;
   }
   
-  /* Add arrows to the right container (pointing left) */
   .right::before {
     content: " ";
     height: 0;

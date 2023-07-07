@@ -1,14 +1,14 @@
 <template>
   <Navbar/>
   <div class="main">
-    <h1>I'm Lithini Skhikhi <div class="roller" style="margin-right: 30rem;">
+    <h1 class="overlay-text">I'm Lithini Skhikhi <div class="roller" style="margin-right: 30rem;">
       <span id="text">An<br/>
       Aspiring<br>
       Web Developer<br/></span>
       <br>
       </div>
       </h1>
-       <img src="https://i.pinimg.com/564x/1a/34/ca/1a34ca71da5eddc78464810763d8a367.jpg" id="homePIC"> 
+       <img src="https://i.pinimg.com/564x/1a/34/ca/1a34ca71da5eddc78464810763d8a367.jpg" id="homePIC" > 
     </div>
    
     
@@ -127,7 +127,16 @@ h1{
   .roller #text {  
   animation: slide-mob 5s infinite;  
 }
-  
+#homePIC{
+  display: block;
+}
+  @media(max-width: 1120px){
+    #homePIC{
+      display: none;
+      
+
+    }
+  }
   @keyframes slide-mob {
   0%{
     top:0;
@@ -142,5 +151,16 @@ h1{
     top: -6.375rem;
   }
 }
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust background color and transparency */
+  padding: 10px;
 }
 </style>
