@@ -138,7 +138,19 @@
  #homePIC{
 height: 50rem;
 width: 50rem;
+
+display: block;
  }
+ #homePIC{
+  display: block;
+  visibility: visible;
+
+}
+  @media(max-width: 1120px){
+    #homePIC{
+      visibility: hidden;
+    }
+  }
  router-link{
   color: #eadfdf;
  }
@@ -192,28 +204,10 @@ footer{
   color: white;
 }
 
-.about{
-  width: 100%;
-  padding : 78px 0px;
-  background-color: #040404;
-}
 
-.about img{
-  height:auto;
-  width:420px;
-}
 
-.about-text{
-  width:550px;
-}
-.main{
-  width: 1130px;
-  max-width: 95%;
-  margin :0 auto;
-  display: flex;
-  align-items: center;
- justify-content: space-around;
-}
+
+
 
 .about-text h1{
   color : white;
@@ -250,11 +244,7 @@ margin-bottom: 48px;
   padding: 13px 30px;
   border-radius: 30px;
   transition: .4s;
-  /* -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s; */
-
+  
 }
 
 #About-btn:hover{
@@ -263,12 +253,12 @@ margin-bottom: 48px;
 }
 
 #homePIC{
-  opacity: 0.5; /* Adjust the opacity value as needed */
+  opacity: 0.5; 
   position: absolute;
   right: 0;
   top: 0;
   width: 500px;
  
-  z-index: 9999; /* Adjust the z-index value if necessary */
+  z-index: 9999; 
 margin-top: 3rem;
 }

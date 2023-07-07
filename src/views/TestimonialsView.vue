@@ -1,32 +1,12 @@
 <template>
    
 
- <!-- <div class="container " >
-    <h1 style="padding-top:3rem;">Testimonials</h1>
-    <div class="row gap-2">
-        <div class="col-12" v-for="data in Testimonials" :key="data.id" >
-<div class="card" style="border:3px solid black;background-color: black;">
-   <div class="row">
-       <div class="col-4">
-           <img :src="data.image" style="width:100%;margin-bottom:1rem;" class="card-img-top" loading="lazy">
-       </div>
-       <div class="col-8">
-           <div class="card-body">
-           <p>{{data.Name}}</p>
-           <p>{{data.relationship}}</p>
-           <p>{{data.Description}}</p>
-          </div>
-       </div>
-   </div>
-   </div>
-       </div>
-   </div>
-</div> -->
+ 
 
-<h1 class="testihead">TESTIMONIALS</h1>
-  <div class="container d-flex justify-content-center">
+<h1 class="testimonials">TESTIMONIALS</h1>
+  <div class="container d-flex justify-content-center" >
     <div id="testcard" class="card mb-3">
-  <div class="row g-0 p-0" id="testicard"
+  <div class="row g-0 p-0" id="tcard"
             v-for="data in Testimonials"
             :key="data.id">
     <div class="col-md-4">
@@ -68,14 +48,14 @@
  </script>
  
  <style scoped>
- #testicard{
+ #tcard{
     border-radius: 4px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   padding: 14px 80px 18px 36px;
   cursor: pointer;
 }
-#testicard:hover{
+#tcard:hover{
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
@@ -89,7 +69,7 @@
     /* padding-top: 3rem; */
   }
 
-  .testihead {
+  .testimonials {
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
@@ -99,7 +79,7 @@
     background-color: black;
   }
   
-  #testicard {
+  #tcard {
     margin-bottom: 1rem;
   }
   
