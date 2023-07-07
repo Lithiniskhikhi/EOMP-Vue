@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row w-100"  >
       <div class="col">
-        <img class="image" style="width: 20rem;" src="https://i.postimg.cc/tJV1R49P/lithini.jpg" alt="">
+        <img class="image" style="width: 20rem;" src="https://i.postimg.cc/G3V3ssVR/Rabia.jpg" alt="">
       </div>
       <div class="col">
         <p style="text-align: center;">

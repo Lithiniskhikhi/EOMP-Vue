@@ -1,7 +1,7 @@
 <template>
   <Navbar/>
   <div class="main">
-    <h1 class="overlay-text">I'm Lithini Skhikhi <div class="roller" style="margin-right: 30rem;">
+    <h1 class="overlay-text" >I'm Lithini Skhikhi <div class="roller" style="margin-right: 30rem;">
       <span id="text">An<br/>
       Aspiring<br>
       Web Developer<br/></span>
@@ -163,4 +163,5 @@ h1{
   background-color: rgba(0, 0, 0, 0.7); /* Adjust background color and transparency */
   padding: 10px;
 }
+
 </style>

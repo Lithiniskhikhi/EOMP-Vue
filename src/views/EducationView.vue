@@ -3,7 +3,7 @@
      <h1>-Education- </h1> 
     </div>
 <br>
-        <div class="container left" v-for="data in Education" :key="data.id" style="width:25rem;">
+        <!-- <div class="container left" v-for="data in Education" :key="data.id" style="width:25rem;">
           <div class="content">
             <h2>2017</h2>
             <img :src="data.image" alt="" >
@@ -13,8 +13,23 @@
           </div>
         </div>
 
+        <br> -->
         <br>
-        <br>
+
+        <div class="d-flex justify-content-center align-items-center flex-column ">
+          <div class="card" v-for="data in Education" :key="data.id" style="width: 18rem; margin-bottom: 4rem;">
+            <img :src="data.image" alt="" >
+            <div class="card-body">
+              <p style="color:black">{{data.title}}</p>
+                      <p style="color:black">{{data.Timeline}}</p>
+                      <p style="color:black">{{ data.Description }}</p>
+            </div>
+          </div>
+        </div>
+<br>
+
+
+
 
         <div class="card text-center" style="background-color: black;">
           <div class="card-header" style="color:white">
